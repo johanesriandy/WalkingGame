@@ -110,13 +110,13 @@
     <BundleResource Include="Content\charactersheet.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.9" />
-    <PackageReference Include="MonoGame.Framework.iOS" Version="3.7.1.189" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\WalkingGame.Core\WalkingGame.Core.csproj">
       <Project>{A5369221-C0FB-4238-85C8-061A9E9C857E}</Project>
       <Name>WalkingGame.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.iOS.csproj">
+      <Project>{1C09EEBD-701F-4184-93E3-70FEDB1DBC7D}</Project>
+      <Name>MonoGame.Framework.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -65,13 +65,13 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.9" />
-    <PackageReference Include="MonoGame.Framework.Android" Version="3.7.1.189" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\WalkingGame.Core\WalkingGame.Core.csproj">
       <Project>{A5369221-C0FB-4238-85C8-061A9E9C857E}</Project>
       <Name>WalkingGame.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.Android.csproj">
+      <Project>{BE1DCAD5-8D53-412F-8E77-F2F015F92271}</Project>
+      <Name>MonoGame.Framework.Android</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -8,10 +8,8 @@
 	<array>
 		<string>GameThumbnail.png</string>
 	</array>
-	<key>CFBundleIdentifier</key>
-	<string>project.MonoGame.WalkingGame.iOS.iOS</string>
 	<key>MinimumOSVersion</key>
-	<string>7.0</string>
+	<string>10.0</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -19,5 +17,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleName</key>
+	<string>WalkingGame.iOS</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.bakode.WalkingGame</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>0001</string>
 </dict>
 </plist>
